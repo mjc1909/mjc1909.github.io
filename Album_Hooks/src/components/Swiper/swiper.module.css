@@ -1,0 +1,15 @@
+.swiperComp {
+
+
+    background-color: red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}

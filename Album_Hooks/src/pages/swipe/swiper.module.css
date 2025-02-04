@@ -1,0 +1,34 @@
+.swiperComp {
+
+
+    background-color: red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.swipeimg{
+    max-height: 450px;
+    border-radius: 2px;
+    box-shadow:  5px 4px 5px 0px;
+    
+}
+
+.swiperslide{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.swipecontainer{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+body{
+     background-color: whitesmoke;
+}

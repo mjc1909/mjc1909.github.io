@@ -1,0 +1,93 @@
+.navigation {
+    background-color: #031D44;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping of items for small screens */
+}
+
+.navigation .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation .logo {
+    color: white;
+    font-family: 'Grandstander Variable';
+    font-size: 18px;
+}
+
+.navigation .logo:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transform: rotate(-10deg);
+    transition: 0.2s;
+}
+
+.navigation svg {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.navigation svg:hover {
+    color: whitesmoke;
+    transform: rotate(-10deg);
+    transition: 0.2s;
+}
+
+.navigation .nav {
+    flex-direction: row; /* Stack links vertically for mobile */
+    width: 100%; /* Full width for mobile */
+    background-color: #031D44; /* Match the navigation bar */
+    padding: 10px 0; /* Add spacing for better usability */
+}
+
+.navigation .nav.open {
+    display: flex; /* Show nav items when open */
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Grandstander Variable';
+}
+
+.navigation a:hover {
+    color: whitesmoke;
+    transform: rotate(-10deg);
+    transition: 0.2s;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .navigation .actions {
+        width: 100%; /* Full width for alignment */
+        justify-content: space-between;
+    }
+
+    .navigation .nav {
+        font-size: 11px;
+    }
+
+    .navigation svg{
+     font-size: 18px;
+    }
+
+    .navigation .menu-toggle {
+        display: block; /* Show hamburger menu icon */
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
