@@ -124,7 +124,7 @@ input,
 textarea{
     display: block;
 
-    width: 100%;
+    width: 90%;
 
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -209,6 +209,10 @@ input[type="submit"] :hover {
 
 
 
+.rain{
+    display: block;
+    animation-play-state: running;
+}
 
 @media (min-width: 500px) {
     p {
@@ -227,10 +231,6 @@ input[type="submit"] :hover {
     p {
         columns: 1;
     }
-.rain{
-    display: block;
-    animation-play-state: running;
-}
 
 
 
