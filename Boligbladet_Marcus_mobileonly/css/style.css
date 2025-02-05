@@ -15,10 +15,10 @@ header{
     
 }
 .slider {
-    height: 100vh;
+    height: 800px;
     text-align: center;
-    display: block;
-    justify-content: center;
+    display: grid;
+    
     
 }
 
@@ -27,7 +27,13 @@ header{
     height: 100vh;
     display: grid;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    
+}
+
+.abonner{
+    text-align: center;
+    height: 100vh;
     
 }
 
@@ -41,8 +47,9 @@ header{
  .slider-slides .slider-slide{
 width: 100%;
 object-fit: cover;
-height: 667px;    
-
+height: 800px;    
+display: flex;
+justify-content: center;
 
     
     
@@ -55,13 +62,12 @@ width: 100px;
 }
 h1{
     font-family: bodoni moda;
-    color: #fff;
-    margin-top: 50%;
-    
-}
+    color: #000;
+    font-size: 32px;
+    }
 h2{
+    font-size: 64px;
     
-    margin-top: 57%;
     color: #fff;
 }
 .læsmere{
@@ -149,6 +155,7 @@ h2{
   .showMenu {
     transform: translateY(0);
     
+    
   }
 
 .menuItem{
@@ -166,7 +173,7 @@ h2{
 }
 
 .køkkenet{
-    background-image: url(/img/images/kitchen.jpg);
+    background-image: url(/Boligbladet_Marcus_mobileonly/img/images/kitchen.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 20vh;
@@ -176,7 +183,7 @@ h2{
 }
 
 .bad{
-    background-image: url(/img/images/bathroom.jpg);
+    background-image: url(/Boligbladet_Marcus_mobileonly/img/images/bathroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -185,7 +192,7 @@ h2{
 }
 
 .stuen{
-    background-image: url(/img/images/livingroom.jpg);
+    background-image: url(/Boligbladet_Marcus_mobileonly/img/images/livingroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -194,7 +201,7 @@ h2{
 }
 
 .haven{
-    background-image: url(/img/images/garden.jpg);
+    background-image: url(/Boligbladet_Marcus_mobileonly/img/images/garden.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -236,6 +243,16 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+h1{
+    color: #fff;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}
+
 h6{
     
   top: 20%;
@@ -299,36 +316,22 @@ p{
 
 footer{
     background-color: #707070;
-    height: 667px;
-    width: 100%;
-    display: block;
+    display: grid;
     justify-content: center;
-    text-align: center;
+    height: 200px;
 }
 
 .logo2{
-    width: 137px;
+    width: 100px;
     height: 80px;
-    
-    margin-top: 10%;
+    place-self: center;
 }
 
-h8{
-    color: #fff;
-    font-family: quicksand;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-left: 15%;
 
-}
 
 form {
-    width: 50%;
-    margin:  100px auto;
-    margin-top: 20px;
+    width: 80%;
+    margin:auto;
 }
 
 input {
@@ -336,16 +339,18 @@ input {
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
-    height: 45px;
+    height: 60px;
     border: 1px solid black;
     
 }
 
 h7{
-    color: #707070;
+    color: #000;
     text-align: center;
-    font: normal normal normal 26px/30px Bodoni Moda;
+    font-family: bodoni moda;
+    font-size: 48px;
     letter-spacing: 5px;
+    
 }
 
 
@@ -377,10 +382,7 @@ label {
 
 }
 
-i{
-    
-    margin-top: 50%;
-}
+
 
 .navbar{
     
@@ -442,6 +444,10 @@ i{
         margin-top: 10%;
     }
 
+    h7{
+        font-size: 28px;
+    }
+
     
     
     .p-1{
@@ -479,6 +485,15 @@ i{
 @media (min-width: 768px){
     .hamburger{
         display: none;
+    }
+
+    h1{
+        font-size: 64px;
+        top: 40%;
+    }
+
+    .læsmere{
+        top: 50%;
     }
 
     
