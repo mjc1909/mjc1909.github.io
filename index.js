@@ -40,4 +40,8 @@ window.addEventListener("scroll", () => {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
   }
+
+  
 });
+
+
